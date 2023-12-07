@@ -140,6 +140,13 @@ body{
     padding: 1%;
 }
 
+.map-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: .2%;
+}
+
 /* All Pages */
 
 footer{
@@ -164,6 +171,12 @@ footer > * {
 
     .nav-div{
         flex-direction: column;
+        font-size: 1.5rem;
+    }
+
+    .mission{
+        font-size: 1rem;
+        min-height: 75px;
     }
 }
 
